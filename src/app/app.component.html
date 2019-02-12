@@ -1,0 +1,34 @@
+
+  
+<mat-toolbar id="test-bar">Manual RFX
+    <span class=fill> </span>
+    <span>RFX Number:REQXXXXXX</span>
+</mat-toolbar>
+
+<mat-grid-list cols="4" rowHeight="4:3">
+    <mat-grid-tile>
+        <div class=RFXtitle>
+            <h3>RFX Title:Catalyst for DTA Refinary</h3>
+            <hr>
+            <h3>Bid Due Date:</h3>
+            <h4>Technical:
+                <input id="placehldr" matInput [matDatepicker]="picker" placeholder="Choose a date">
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-datepicker #picker></mat-datepicker>
+            </h4>
+            <h4>Commercial:
+                <input id="placehldr1" matInput [matDatepicker]="picker1" placeholder="Choose a date">
+                <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                <mat-datepicker #picker1></mat-datepicker>
+            </h4>
+        </div>
+    </mat-grid-tile>
+
+    <mat-grid-tile [colspan]='3'>
+        <app-table-component></app-table-component>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]='4'>
+            <app-table></app-table>
+        </mat-grid-tile>
+    
+    <!-- <router-outlet></router-outlet> -->

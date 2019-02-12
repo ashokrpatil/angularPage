@@ -1,0 +1,58 @@
+
+table{
+    width:100%
+}
+.mat-header-row{
+    background: black;
+    color:white
+}
+.mat-header-cell{
+    color:white;
+}
+
+.mat-stroked-button{
+    background-color:black;
+    color: white;
+    size: 50%;
+    margin: 5px
+}
+.mat-figure{
+   margin:0;
+   padding:0
+}
+.fill{
+    flex:1 1 auto
+}
+.arrow{
+    float: right;
+    margin-top: 20px
+}
+
+.element {
+    color: white;
+    background-color: black;
+    padding: 5px 8px 5px 8px;
+    border-radius:  5px;
+}
+
+.btn{
+    margin-top: 10px  
+}
+#tble{
+    margin-bottom: 120px;
+    border: 1px solid gray;
+    margin-left: 40px;
+    position: relative;
+    top: -10px;
+}
+.app-table-component {
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.btm{
+    margin-top: -100px;
+    margin-left: 63px;
+    position: relative;
+    top: -32px;
+}
