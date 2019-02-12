@@ -27,3 +27,16 @@
     color:blue;
     background-color:rgb(201, 196, 196); 
 }
+
+ .box-iconn{
+    padding: 0 0 0 18px;
+}
+
+.mat-icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    width: 24px;
+    padding: 0 0 0 15px;
+}
